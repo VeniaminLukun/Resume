@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+}
+.table {
+    margin: 0;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+}
+.table td {
+    padding: 0px;
+}
+.table_inner td {
+    border: 0px solid black;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.table_2 {
+    height: 939px;
+}
+.td_text {
+    padding: 5px !important;
+    vertical-align: text-top;
+}
+.td_text span {
+    font-weight: 700;
+}
+.photo {
+    width: 300px;
+    height: 400px;
+}
+.photo_wrap {
+    padding: 3px !important;
+    padding-bottom: 0px !important;
+}
+.name_wrap {
+    height: 102px;
+    width: 659px;
+}
+.skills span {
+    font-size: 24px;
+    font-weight: 700;
+}
+.name_inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 5px !important;
+}
+.fio {
+    align-self: flex-start;
+    font-size: 30px;
+}
+
+/* COLORS */
+
+.contacts {
+   background-color: #00ffff; 
+}
+.skills {
+    background-color: #ead1dc; 
+}
+.name {
+    background-color: #ead1dc; 
+}
+.proffesion {
+    background-color: #00ffff; 
+}
+.education {
+    background-color: #d9d2e9; 
+}
+.work {
+    background-color: #d9d2e9; 
+}
+.hobby {
+    background-color: #00ffff; 
+}
